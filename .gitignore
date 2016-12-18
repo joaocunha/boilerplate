@@ -35,3 +35,23 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# OS-specific
+.DS_Store
+thumbs.db
+
+# Environmental
+.env.json
+
+# Ruby
+*.gem
+
+# Sass
+.sass-cache/
+
+# IDEs & Code editors
+.vscode/
+
+# General dist
+build/
+dist/

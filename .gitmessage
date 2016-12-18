@@ -1,0 +1,68 @@
+<TYPE>(<SCOPE>): <SUBJECT>
+
+<BODY:optional>
+
+<FOOTER:optional>
+
+# -------------------------------== ATTENTION ==-------------------------------
+#
+#                  We use Angular's Commit Message Guidelines.
+#                 Edit the commit message above to follow them.
+#
+# --------------------------------== EXAMPLE ==--------------------------------
+#                                                                  ____________
+# feat(compile): simplify isolate scope bindings                         HEAD |
+#                                                                  ____________
+# Change the isolate scope binding options to:                           BODY |
+#   - @attr - attribute binding (including interpolation)                     |
+#   - &expr - expression execution binding                                    |
+#                                                                  ____________
+# Fixes #1785                                                          FOOTER |
+#                                                                             |
+# BREAKING CHANGE: isolate scope bindings definition has changed              |
+# and the inject option for the controller was removed.                       |
+#
+# --------------------------------== <TYPE> ==---------------------------------
+#
+# Must be one of the following:
+#
+# * feat: A new feature
+# * fix: A bug fix
+# * docs: Documentation only changes
+# * style: Visual design and code style/formatting changes that do not affect the meaning of the code
+# * refactor: A code change that neither fixes a bug nor adds a feature
+# * perf: A code change that improves performance
+# * test: Adding missing tests
+# * chore: Changes to the build process or auxiliary tools and libraries
+#
+# --------------------------------== <SCOPE> ==--------------------------------
+#
+# The scope specifies the place of the commit change. For example: buttons,
+# ci, gulp, activity feed, etc. Make it short.
+#
+# -------------------------------== <SUBJECT> ==-------------------------------
+#
+# The subject contains succinct description of the change:
+#
+# * use the imperative, present tense: "change" not "changed" nor "changes"
+# * don't capitalize the first letter
+# * no dot (.) at the end
+#
+# ----------------------------== <BODY:optional> ==----------------------------
+#
+# Use the imperative, present tense: "change" not "changed" nor "changes". The
+# body should include the motivation for the change and contrast this with
+# previous behavior.
+#
+# ---------------------------== <FOOTER:optional> ==---------------------------
+#
+# The footer should contain information about Breaking Changes and reference
+# GitHub issues that this commit Closes. Breaking Changes should start with
+# the words "BREAKING CHANGE:" followed by a space or two newlines.
+#
+# ---------------------------------== MORE ==----------------------------------
+#
+# * https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md
+# * https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/
+#
+# -----------------------------------------------------------------------------

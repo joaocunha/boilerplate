@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "rules": {
+    "react/require-extension": "off",
+    "import/no-extraneous-dependencies": [2, {"devDependencies": true}],
+    "max-len": [2, 100, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": true,
+      "ignoreTrailingComments": true
+    }]
+  }
+}
